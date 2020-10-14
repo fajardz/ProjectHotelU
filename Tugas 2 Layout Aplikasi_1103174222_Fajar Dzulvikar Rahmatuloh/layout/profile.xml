@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="216dp"
+        android:layout_height="116dp"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="45dp"
+        tools:srcCompat="@drawable/hotel_u" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Home"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        tools:layout_editor_absoluteX="302dp"
+        tools:layout_editor_absoluteY="21dp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="About US"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="255dp"
+        android:layout_height="149dp"
+        tools:layout_editor_absoluteX="68dp"
+        tools:layout_editor_absoluteY="222dp"
+        tools:srcCompat="@drawable/sena1" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Sena Phalevi"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="307dp"
+        android:layout_height="168dp"
+        android:layout_marginBottom="12dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName7"
+        tools:layout_editor_absoluteX="53dp"
+        tools:srcCompat="@drawable/fajar1" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Fajar Dzulvikar Rahmatuloh"
+        tools:layout_editor_absoluteX="114dp"
+        tools:layout_editor_absoluteY="626dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="74dp"
+        android:layout_height="38dp"
+        android:text="Learn"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="398dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="74dp"
+        android:layout_height="38dp"
+        android:text="Learn"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="677dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="69dp"
+        android:layout_height="46dp"
+        android:text="ok"
+        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="69dp"
+        android:layout_height="46dp"
+        android:text="ok"
+        tools:layout_editor_absoluteX="326dp"
+        tools:layout_editor_absoluteY="677dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
